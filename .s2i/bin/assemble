@@ -15,9 +15,9 @@ cp -Rf /tmp/src/*.html ./
 
 DATE=$(date +%F)
 
-echo "---> Creating info page"
+echo "---> Configuring info page"
 echo "Print built on $DATE" >> ./info.html
-echo "Amki insent, sed on light" >> ./info.html
+echo "Amki Inent, sed on light3
 
 
 ######## CUSTOMIZATION ENDS HERE ############
