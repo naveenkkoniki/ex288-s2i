@@ -9,16 +9,10 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
-
-echo "---> Installing Application Source"
 cp -Rf /tmp/src/*.html ./
-
 DATE=$(date +%F)
-
-echo "---> Configuring info page"
-echo "Print built on $DATE" >> ./info.html
-echo "Amki Inent, sed on light1" >> ./info.html
-
+echo "Page built on $DATE" >> ./info.html
+echo "Amki insent, sed on light." >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
