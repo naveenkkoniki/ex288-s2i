@@ -10,13 +10,13 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-echo "---> Installing Application Source"
+echo "Application Source"
 cp -rf /tmp/src/*.html ./
 
 DATE=$(date +%F)
 
-echo "---> Installing Info Page"
-echo "Print $DATE" >> ./info.html
+echo " Info Page"
+echo "date is  $DATE" >> ./info.html
 echo "Amki insent, sed on light" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
